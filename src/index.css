@@ -8,3 +8,18 @@
     scroll-behavior: smooth;
 }
 
+
+.offcanvas-header .btn-close {
+     
+     width: 20px;
+     height: 20px;
+     background-image: url(../public/arrow-left.svg); 
+     background-color: #323437e8;
+     border-radius: 10px;
+     box-shadow: 0 0 8px 5px red; 
+     border-radius: 2px; 
+
+    border: 2px solid transparent;
+    outline: none; 
+    transition: box-shadow 0.2s ease;
+  }

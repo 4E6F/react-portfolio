@@ -40,18 +40,12 @@ function HeaderNav() {
             >
               <Offcanvas.Header
                 className={`offcanvas-header  ${styles["offcanvas_header"]}`}
+                closeButton
               >
                 <Offcanvas.Title
                   id={`offcanvasNavbarLabel-expand-${expand}`}
                   as={CustomTitle}
                 ></Offcanvas.Title>
-                <div className={styles["offcanvas_header_btn_outer_blur"]}>
-                  <Button
-                    className={`btn btn-dark ${styles["offcanvas_header_btn"]}`}
-                  >
-                    <span>&larr;</span>
-                  </Button>
-                </div>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav

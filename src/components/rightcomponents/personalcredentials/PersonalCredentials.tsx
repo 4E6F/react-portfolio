@@ -11,6 +11,7 @@ function PersonalCredentials() {
           src={profile}
           roundedCircle
           className={styles["personal-cred_image"]}
+          alt="Profile Pic"
         />
       </div>
       <div id="About" className={styles["personal-cred_name-titel"]}>
@@ -19,20 +20,16 @@ function PersonalCredentials() {
       </div>
       <div className={styles["personal-cred_description"]}>
         <p>
-          Ich bin 4E5F aka Zonbi, ein dynamischer Full-Stack- und
-          Embedded-Entpersonal-cred-infolist_item_wickler mit 10 Jahren
-          Erfahrung. Meine Expertise umfasst die Schaffung reaktionsstarker
-          personal-cred-infolist_item_webanpersonal-cred-infolist_item_wendungen,
-          die Entpersonal-cred-infolist_item_wicklung von Backend-Systemen und
-          die Programmierung von Embedded-Systemen für die Automobil- und
-          Smpersonal-cred-infolist_item_art-Home-Industrie.
+          I am 4E5F, also known as Zonbi, a dynamic Full-Stack and Embedded
+          Developer with a decade of experience. My expertise spans developing
+          responsive web applications, engineering backend systems, and
+          programming embedded systems for the automotive and smart home
+          industries.
         </p>
         <p>
-          Ich beherrsche Technologien personal-cred-infolist_item_wie
-          JavaScript, React, Node.js, Python, MySQL und MongoDB. Meine Stärke
-          liegt in der Integration von Softpersonal-cred-infolist_item_ware mit
-          Hardpersonal-cred-infolist_item_ware, um innovative, effiziente
-          Lösungen zu entpersonal-cred-infolist_item_wickeln.
+          I am proficient in technologies such as JavaScript, React, Node.js,
+          Python, MySQL, and MongoDB. My strength lies in integrating software
+          with hardware to create innovative and efficient solutions.
         </p>
       </div>
       <div className={styles["personal-cred_infolist"]}>
