@@ -53,4 +53,14 @@
 }
 
 
+.offcanvas_nav_link:hover{
+    border: 3px solid red;
+    border-radius: 5px;
+    background-color: red;
+}
 
+.offcanvas_nav_link:focus{
+    border: 3px solid red;
+    border-radius: 5px;
+    background-color: red;
+}

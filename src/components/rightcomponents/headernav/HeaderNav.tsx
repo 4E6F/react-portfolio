@@ -50,12 +50,42 @@ function HeaderNav() {
                 <Nav
                   className={`justify-content-end flex-grow-1 pe-3 ${styles["offcanvas_nav-content-container"]}`}
                 >
-                  <Nav.Link href="#Home">Home</Nav.Link>
-                  <Nav.Link href="#About">About</Nav.Link>
-                  <Nav.Link href="#Qualifications">Qualifications</Nav.Link>
-                  <Nav.Link href="#Expertise">Expertise</Nav.Link>
-                  <Nav.Link href="#Resume">Resume</Nav.Link>
-                  <Nav.Link href="#Contact">Contact</Nav.Link>
+                  <Nav.Link
+                    className={styles["offcanvas_nav_link"]}
+                    href="#Home"
+                  >
+                    Home
+                  </Nav.Link>
+                  <Nav.Link
+                    className={styles["offcanvas_nav_link"]}
+                    href="#About"
+                  >
+                    About
+                  </Nav.Link>
+                  <Nav.Link
+                    className={styles["offcanvas_nav_link"]}
+                    href="#Qualifications"
+                  >
+                    Qualifications
+                  </Nav.Link>
+                  <Nav.Link
+                    className={styles["offcanvas_nav_link"]}
+                    href="#Expertise"
+                  >
+                    Expertise
+                  </Nav.Link>
+                  <Nav.Link
+                    className={styles["offcanvas_nav_link"]}
+                    href="#Resume"
+                  >
+                    Resume
+                  </Nav.Link>
+                  <Nav.Link
+                    className={styles["offcanvas_nav_link"]}
+                    href="#Contact"
+                  >
+                    Contact
+                  </Nav.Link>
                 </Nav>
                 <div className={styles["offcanvas_copyright-container"]}>
                   <p>
