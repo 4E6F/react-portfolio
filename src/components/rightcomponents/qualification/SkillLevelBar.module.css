@@ -1,0 +1,19 @@
+.progress-bar_container{
+    margin-bottom: 17px;
+}
+
+.progress-bar_description{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.progress-bar_label{
+    font-style: italic;
+    text-align: left;
+}
+
+.progress-bar_percentage{
+    font-style: italic;
+    text-align: left;
+}

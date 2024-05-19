@@ -1,0 +1,20 @@
+.contacts{
+    padding-top: 100px;
+    margin: 0 32px;
+}
+
+.contacts_title{
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.75rem;
+}
+
+.contact_btn{
+    display: flex;
+    justify-content: end;
+}
+
+.first-name-bg-color{
+    background-color: black;
+}

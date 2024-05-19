@@ -1,0 +1,10 @@
+.body{
+    display: grid;
+    background-color: black;
+    color: #bbb;
+}
+
+.html{
+    scroll-behavior: smooth;
+}
+

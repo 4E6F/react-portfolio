@@ -1,0 +1,41 @@
+.expertise {
+    padding: 45px 0px;
+    margin: 0 32px;
+}
+
+.expertise_inner{
+    display: flex;
+}
+
+.expertise_inner--left{
+    width: 50%;
+    padding-right: 50px;
+}
+.expertise_inner--right{
+    width: 50%;
+    padding-right: 50px;
+}
+.expertise_inner--left_title, .expertise_inner--right_title{
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.75rem;
+}
+
+@media only screen and (max-width: 550px) {
+    .expertise {
+        padding: 45px 0px;
+    }
+
+    .expertise_inner{
+        flex-direction: column;
+    }
+    .expertise_inner--left{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .expertise_inner--right{
+        width: 100%;
+        padding-right: 0px;
+    }
+}

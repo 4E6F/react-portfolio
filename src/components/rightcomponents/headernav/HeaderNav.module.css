@@ -1,0 +1,67 @@
+.header-nav_bg-color {
+    background-color: #323232;
+}
+
+.header-nav_brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.header-nav_toggler{
+    background-color: white;
+
+}
+
+.offcanvas-container{
+    background: linear-gradient(to bottom, #070707 0%, #171719 47%, #39393A 100%);
+}
+
+.offcanvas_header {
+    padding-top: 40px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.offcanvas_header_btn_outer_blur{
+    border: 2px solid transparent; /* Unsichtbarer Rand als Standard */
+    outline: none; /* Entfernt den Fokus-Rand, der von manchen Browsern hinzugefügt wird */
+    transition: box-shadow 0.2s ease; /* Sanfte Übergangsanimation für den Schatten */
+}
+.offcanvas_header_btn_outer_blur:hover{
+    filter: blur(1px); 
+    z-index: -1;
+    box-shadow: 0 0 8px 5px red; /* Erzeugt den unscharfen Rand */
+    border-radius: 2px; /* Wenn der Button abgerundete Ecken hat */
+}
+
+.offcanvas-header-nav_title{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+
+.offcanvas_nav-content-container{
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.offcanvas_copyright-container{
+    padding-left: 40px;
+    font-style: italic;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.offcanvas_copyright-container p{
+    color: #bbb
+    
+}
+
+
+

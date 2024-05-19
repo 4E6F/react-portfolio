@@ -1,0 +1,14 @@
+.qualifications{
+    padding: 40px 40px 40px;
+    margin: 0px 32px;
+    background-color: black;
+    border-radius: 15px;
+    border: 5px solid rgba(14, 14, 14, 0.628);
+    box-shadow: 10px 10px 20px 5px rgba(121, 116, 116, 0.5);
+}
+
+@media only screen and (max-width: 805px) {
+    .qualifications{
+        padding-left:40px;
+    }
+}

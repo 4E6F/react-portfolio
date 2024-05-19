@@ -1,0 +1,81 @@
+.resume-items ul {
+    margin: 0;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 70%;
+}
+
+.resume-items ul::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    
+    background-color: #56585c;
+}
+.resume-items ul li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 45px;
+    margin: 0;
+}
+.resume-items ul li::before{
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background: #fff;
+    border-radius: 100%;
+    border: 3px solid #ccc;
+    left: -9px;
+    top: 8px;
+    background-color: #000;
+    border-color: #56585c;
+    
+}
+
+.resume-items_inner {
+    display: flex;
+}
+
+.resume-items_inner_date{
+    width: 50%;
+    padding-right: 20px;
+}
+
+.resume-items_inner_date span{
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 50px;
+    font-size: 14px;
+    white-space: nowrap;
+    background-color: black;
+    color: #fff;
+}
+
+.resume-items_inner_place{
+    width: 50%;
+    padding-left: 20px;
+    
+
+}
+
+.resume-items_inner_place h3{
+    font-size: 16px;
+    margin-bottom: 2px;
+    font-weight: 600px;
+    color:#fff;
+}
+
+.resume-items_inner_place span{
+    font-size: 14px;
+    
+    display: inline;
+}
+
+@media only screen and (max-width: 550){
+    
+}
