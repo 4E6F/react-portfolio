@@ -76,6 +76,12 @@
     display: inline;
 }
 
-@media only screen and (max-width: 550){
-    
+@media only screen and (max-width: 400px){
+    .resume-items_inner {
+        flex-direction: column;
+    }
+
+    .resume-items_inner_date span{
+        padding: 5px 20px;
+    }
 }
